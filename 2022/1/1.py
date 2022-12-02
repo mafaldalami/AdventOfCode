@@ -1,7 +1,7 @@
 def calculate_cals(elves: list) -> list:
     elves_cals = []
     max = -1
-    for elf in elves: 
+    for elf in elves:
         cals = 0
         for cal in elf.split("\n"):
             cals += int(cal)
